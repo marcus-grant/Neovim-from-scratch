@@ -42,7 +42,6 @@ vim.cmd [[
 ```
 
 This Autocommand will look for the `plugins.lua` file and if it ever gets changed, it will call `PackerSync` to synchronize locally installed plugins with the plugins listed in `lua/user/plugins.lua` under the `use` keyword.
-
 ```lua
 -- Use a protected call so we don't error out on first use
 local status_ok, packer = pcall(require, "packer")
@@ -124,6 +123,10 @@ Post install scripts can also be run for plugins that require for example runnin
 Just use the `run` property like above and provide a string representing a command to run post install. This is still lazy loading because this `run` command will only be run when the vim command `MarkdownPreview` is run, as specified by the `cmd` property.
 
 **TODO** Create a nice table in this README to show all keymaps.
+
+## Color Schemes
+
+
 
 ## End of My User Customizations
 

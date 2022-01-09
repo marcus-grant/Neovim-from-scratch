@@ -22,7 +22,9 @@ require "user.bufferline"
 require "user.lualine"
 require "user.toggleterm"
 require "user.project"
-require "user.impatient"
+-- FIXME: Errors about lvim.lsp something not loading properly
+-- NOTE: If something goes wrong with ~/.local/share/nvim based stuff, just nuke it using rm -rf and reinstall all plugins
+-- require "user.impatient"
 require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
